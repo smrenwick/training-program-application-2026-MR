@@ -94,6 +94,8 @@ plot
 ## Save the plot
 ### Show code for saving the plot with ggsave() or a similar function
 
+setwd("C:/TEMP")
+
 CairoPDF(14, 14, file="Boxplot_celltype.pdf", bg="transparent") 
 plot(plot)
 dev.off()
